@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vertex"
+version = "0.1.0"
+description = ""
+authors = ["Bhaswata Choudhury <eeb20007@tezu.ac.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-cloud-aiplatform = {extras = ["langchain", "reasoningengine"], version = "^1.53.0"}
+google-cloud = "^0.34.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
